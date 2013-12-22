@@ -1,0 +1,12 @@
+Secrets.xcodeproj
+Secrets.xcworkspace
+
+Podfile.lock
+Pods
+.DS_Store
+
+*.xcuserstate
+xcuserdata
+
+*.ipa
+*.zip

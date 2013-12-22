@@ -21,6 +21,7 @@
 		DA1A5F6618678BA0003DF655 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1A5F4818678BA0003DF655 /* UIKit.framework */; };
 		DA1A5F6E18678BA0003DF655 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA1A5F6C18678BA0003DF655 /* InfoPlist.strings */; };
 		DA1A5F7018678BA0003DF655 /* corebeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1A5F6F18678BA0003DF655 /* corebeaconTests.m */; };
+		DA1A5F7A18678BCA003DF655 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1A5F7918678BCA003DF655 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DA1A5F6B18678BA0003DF655 /* corebeaconTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "corebeaconTests-Info.plist"; sourceTree = "<group>"; };
 		DA1A5F6D18678BA0003DF655 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA1A5F6F18678BA0003DF655 /* corebeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = corebeaconTests.m; sourceTree = "<group>"; };
+		DA1A5F7918678BCA003DF655 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1A5F7A18678BCA003DF655 /* CoreBluetooth.framework in Frameworks */,
 				DA1A5F4718678BA0003DF655 /* CoreGraphics.framework in Frameworks */,
 				DA1A5F4918678BA0003DF655 /* UIKit.framework in Frameworks */,
 				DA1A5F4518678BA0003DF655 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		DA1A5F4318678BA0003DF655 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DA1A5F7918678BCA003DF655 /* CoreBluetooth.framework */,
 				DA1A5F4418678BA0003DF655 /* Foundation.framework */,
 				DA1A5F4618678BA0003DF655 /* CoreGraphics.framework */,
 				DA1A5F4818678BA0003DF655 /* UIKit.framework */,
